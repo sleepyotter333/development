@@ -16,6 +16,8 @@ import { display } from "@mui/system";
 export default function CurrentList(props) {
 /* list of current items displayed */
   const [currList, setCurrList] = useState(bakeryData.sort((a, b) => a.name.localeCompare(b.name)));
+  /* list of types to filter by */
+  const [filters, setFilters] = useState([]);
   /* list of favorites */
   const [favs, setFavs] = useState([]);
   /* total price of favorites */
