@@ -11,3 +11,13 @@
 img {
     max-width: 250px;
   }
+
+  .main {
+    flex:content;
+    width: 70%;
+  }
+
+  .aside {
+    flex-direction: column;
+    display: flex;
+  }
